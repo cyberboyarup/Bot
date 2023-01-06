@@ -18,7 +18,7 @@ function App() {
     const fetchBotResponse = async () => {
         const { data } = await axios.post(
   
-            "https://arup-bot.onrender.com"
+            "https://arup-bot.onrender.com",
             { input },
             {
                 headers: {
