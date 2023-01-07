@@ -1,4 +1,4 @@
-#Bot
+# Bot
 This project is a clone of the popular ChatGPT chatbot, built using Node.js and OpenAI's API.
 
 ## Prerequisites
