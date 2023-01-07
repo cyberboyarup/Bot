@@ -128,7 +128,7 @@ function App() {
                     value={input}
                     autoFocus
                     type="text"
-                    placeholder="Ask anything!"
+                    placeholder="Ask Arup!"
                     onChange={(e) => setInput(e.target.value)}
                     onKeyUp={onKeyUp}
                 />
