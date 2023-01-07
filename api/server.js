@@ -12,13 +12,15 @@ app.use(express.json());
 app.get("/", async (req, res) => {
     res.status(200).send({
         message:
-            "This is ChatGPT AI APP server url, please visit https://example.herokuapp.co",
+            "This is ChatGPT AI APP server url, please visit https://google.com",
     });
 });
+
 const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
-  });
+});
 const openai = new OpenAIApi(configuration);
+
 app.post("/", async (req, res) => {
     try {
         const response = await openai.createCompletion({
